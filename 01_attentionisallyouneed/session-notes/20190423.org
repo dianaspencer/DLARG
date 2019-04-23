@@ -1,5 +1,10 @@
-* Still working on Attention is all you need
+* Still working on Attention is all you need.
 ** Positional encoding seems arbitrary? 
 ** Taxonomy of attention?
 ** File structure papers w folder related papers inside. 
-* 
+* Resuming detailed reading
+** Sect. 3 Architecture
+*** Symbol representations x_i are mapped (embedded) into a continuous form z_i.
+*** "Auto-regressive at each step" - Decoder: Given z, for each step in the sequence, decoder outputs predicted next step (symbol), which is then (embedded and) used as additional input for decoder in next step. 
+*** Essentially stuck at "Why is Sect. 3.2 suddenly talking about query, key, and value?"
+**** https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html#key-value-and-query
