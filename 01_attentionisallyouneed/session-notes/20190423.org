@@ -1,0 +1,5 @@
+* Still working on Attention is all you need
+** Positional encoding seems arbitrary? 
+** Taxonomy of attention?
+** File structure papers w folder related papers inside. 
+* 
